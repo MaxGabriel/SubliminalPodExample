@@ -91,6 +91,7 @@
 		5050070A176CD85E000CC5B9 = {
 			isa = PBXGroup;
 			children = (
+				50500753176D6D8F000CC5B9 /* Test making fodler */,
 				50500750176CDB28000CC5B9 /* Integration Tests */,
 				5050071C176CD85E000CC5B9 /* SubliminalPod3 */,
 				50500715176CD85E000CC5B9 /* Frameworks */,
@@ -155,6 +156,14 @@
 				50500751176CDEBA000CC5B9 /* TestButton.m */,
 			);
 			path = "Integration Tests";
+			sourceTree = "<group>";
+		};
+		50500753176D6D8F000CC5B9 /* Test making fodler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Test making fodler";
+			path = "Test making folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

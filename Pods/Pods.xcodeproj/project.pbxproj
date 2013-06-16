@@ -10,92 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>00E052B7F1734AE6AE0D9715</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B5A25556EF0844E391FB993C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Integration Tests-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0246778CC7BB49869290B7EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBFE52F9EFCF44A1B3B44E5A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>02F346D1C2E54AF580B5CEC4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B5A25556EF0844E391FB993C</string>
-				<string>468AA38E177A43569246F387</string>
-				<string>B7E560D33954467694198FD3</string>
-				<string>1DCF254A946C4CA581BF4726</string>
-				<string>5879FE43BDD04D55A2B40201</string>
-				<string>981E1AAC17484C3A85695476</string>
-				<string>51A932DAC12E47D69ED236EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Integration Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0839BAC823D649EABCA45C10</key>
+		<key>01BD799658364D97ABEE815E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -104,58 +19,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSObject+SLVisibility.h</string>
+			<string>SLElement.h</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/NSObject+SLVisibility.h</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLElement.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>089BAD7B380D489EA721FB19</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSObject+SLAccessibilityDescription.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityDescription.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>099E7360145C43289F7F7DD3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBC94022104C40F3ACDAA46F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>0B404055510D45798B194D79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54C0E4A691E243D99ABBF871</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0BF6CD6AF3C34CA8A4915C7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B508EDA6554F4D27924CE472</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>1320835197FE48338E1DA6CA</key>
+		<key>02408F86756A4414B3046A00</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -164,11 +34,146 @@
 			<key>name</key>
 			<string>Rakefile</string>
 			<key>path</key>
-			<string>Subliminal/Rakefile</string>
+			<string>../../../Subliminal/Rakefile</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>132C11F2F48D446E8011766F</key>
+		<key>039B4ED2D69B4949BE5CC5BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B99F59D174FF4FB48B060C89</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>0619866198114FCCAA0F42CD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLMainThreadRef.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/SLMainThreadRef.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>075A0C7569574E2D8CA0F53A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLWebView.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWebView.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>0B34E59CE53E420E922D26B7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92783CD4978C486EBDF743DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>10FE0A0F3AAE4697A4761EAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3865C2768AA54166BB06B4FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>119C48228A02480EA3038A97</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLTestController+AppHooks.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/SLTestController+AppHooks.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>135828DFFDF646469551546B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLTest+Internal.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/SLTest+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>135EE9A4B68D48A8AA7D1506</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLPopover.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLPopover.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>138130EA21DB4C8CB23AC268</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLTerminal.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/Terminal/SLTerminal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>13AB7EAEAAD247D087B5C405</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLDevice.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/SLDevice.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>153AD6E1D6EB425484B7010E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -179,11 +184,841 @@
 			<key>name</key>
 			<string>SLWindow.m</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWindow.m</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWindow.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>14954FE2477044038AC1EB2D</key>
+		<key>16DFB8BE1DE9456BA142568E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6744AB73681941F8B17C0C7D</string>
+				<string>90E0D1B10DCC4FA694388575</string>
+				<string>8D2D387E703445AEB998EAAF</string>
+				<string>D0555EFABE52487AB6CFD16E</string>
+				<string>18BFBE8A56F4405DA51F93D2</string>
+				<string>743E330E1F674080A7E8E24E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>178DAF69212F4981B47725CD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSObject+SLAccessibilityHierarchy.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityHierarchy.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>18BFBE8A56F4405DA51F93D2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2053F0B411874E80AC17E425</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18C6A63CBF4A43209FFBC4A8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Pods-Integration Tests-environment.h</string>
+			<key>path</key>
+			<string>Pods-Integration Tests-environment.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>191A44E829174190BD758B73</key>
+		<dict>
+			<key>fileRef</key>
+			<string>745688213DFF43F886B573CA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>1B9084377A704EBF85E38516</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLWebView.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWebView.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>1DC62DC2E4854298BAC675A6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6FF5DB7895C342A08C87D919</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>2053F0B411874E80AC17E425</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>838AE2D77D9A45FC8EED0A2A</string>
+				<string>18C6A63CBF4A43209FFBC4A8</string>
+				<string>A0ED125B76CB4200B4EDFD24</string>
+				<string>B974DA2B7C9548159D8D7D36</string>
+				<string>A1EB7D6E74EB4B45A12333CE</string>
+				<string>4E81514EDC624D978FFA27A0</string>
+				<string>64B7821B9B0B4D74B0BEB8DE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Integration Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2091E75B08AC42AE8AF8057E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLAlert.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLAlert.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2224C7B7844343A590917582</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSObject+SLAccessibilityHierarchy.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityHierarchy.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>22D5DE8498FA4A1E9B8B5C7F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E19CF065378B4F519E3AA5D9</string>
+				<string>86656E6BE7AA4A22B1832CC4</string>
+				<string>92783CD4978C486EBDF743DB</string>
+				<string>3DD7A73FFAB14B9DAB8A42F0</string>
+				<string>0619866198114FCCAA0F42CD</string>
+				<string>3865C2768AA54166BB06B4FB</string>
+				<string>135828DFFDF646469551546B</string>
+				<string>239E275AF63547579A9E9B21</string>
+				<string>CFD98F8B42E94C6ABB087390</string>
+				<string>B92B3363F50347A3AB776D62</string>
+				<string>A655912083FE429F961ED69B</string>
+				<string>EB4CCF513B244C17AF3FDE79</string>
+				<string>138130EA21DB4C8CB23AC268</string>
+				<string>4B4DDD10040441509FF1A086</string>
+				<string>842CF91626D0448FBFFF9B85</string>
+				<string>DBA6CDA625574B01B73637F1</string>
+				<string>A9A6E0FF88FC407DACB938F9</string>
+				<string>C60BC32F5E0E4D2591AB8A71</string>
+				<string>119C48228A02480EA3038A97</string>
+				<string>3C416A4671054AF1987A30E8</string>
+				<string>63269CB7C97E4BF9BE615635</string>
+				<string>9A2A2A8F169E4F119443060E</string>
+				<string>13AB7EAEAAD247D087B5C405</string>
+				<string>89AB16825F6A4C6886ACCAFA</string>
+				<string>6FF5DB7895C342A08C87D919</string>
+				<string>C2459FB5AE104230A40DA4D8</string>
+				<string>178DAF69212F4981B47725CD</string>
+				<string>2224C7B7844343A590917582</string>
+				<string>2091E75B08AC42AE8AF8057E</string>
+				<string>BEBD1F10222346579BF47E13</string>
+				<string>B99F59D174FF4FB48B060C89</string>
+				<string>F4BDE0C7E96E431195292240</string>
+				<string>01BD799658364D97ABEE815E</string>
+				<string>C35FB60A2DCC43D2803CD142</string>
+				<string>CDDEE214656345C5AE6FCFBC</string>
+				<string>ECA64E1088734E86BBE7AE3B</string>
+				<string>745688213DFF43F886B573CA</string>
+				<string>135EE9A4B68D48A8AA7D1506</string>
+				<string>FAD22B7A19BD4895A0D0D7A7</string>
+				<string>92DA6D2DE691439C8C43D3BA</string>
+				<string>594A69EDBF4A429F9823BED9</string>
+				<string>F8567F0B82AB416D889FE2A6</string>
+				<string>4684834BCF0049CB89F64A6E</string>
+				<string>7637A4A7BFED46378846F7E4</string>
+				<string>AA3FDE916F5748F8A4B37EFB</string>
+				<string>1B9084377A704EBF85E38516</string>
+				<string>075A0C7569574E2D8CA0F53A</string>
+				<string>F30815153AB54C7B8ED7741B</string>
+				<string>153AD6E1D6EB425484B7010E</string>
+				<string>8BA35A7ACDB84A79AFD6B118</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Subliminal</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>239E275AF63547579A9E9B21</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLTestController+Internal.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/SLTestController+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2518D3B3AB834AF09C222E42</key>
+		<dict>
+			<key>fileRef</key>
+			<string>178DAF69212F4981B47725CD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>28AD9277EB04407B9428702C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C60BC32F5E0E4D2591AB8A71</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>2DBF830C14744F0086B7DA04</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DBA6CDA625574B01B73637F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>2E68B27817F841FBA21EBFA3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>138130EA21DB4C8CB23AC268</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>30A928A106364DE5A8159B59</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>3737EC87DF7144DF9E604151</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B92B3363F50347A3AB776D62</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>385B8D44A1714E7083A655E5</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>996AA4495DD84F39BCB8DD5A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>44C4EFB7B47D413BB10433FE</string>
+				<string>AA13A4BE1C5D4D819A541E83</string>
+				<string>C4B9C105347C458595C2585A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Integration Tests</string>
+			<key>productName</key>
+			<string>Pods-Integration Tests</string>
+			<key>productReference</key>
+			<string>E24E62357C5F498E85A47585</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>3865C2768AA54166BB06B4FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLMainThreadRef.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/SLMainThreadRef.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3B236E46A85C4F44892E4396</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C2459FB5AE104230A40DA4D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>3C416A4671054AF1987A30E8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLTestController+AppHooks.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/SLTestController+AppHooks.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3DD7A73FFAB14B9DAB8A42F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLAccessibilityPath.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/SLAccessibilityPath.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>42B2342379D34A3BA9BB1590</key>
+		<dict>
+			<key>fileRef</key>
+			<string>842CF91626D0448FBFFF9B85</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>444F9F76370D4BCD91A06A42</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13AB7EAEAAD247D087B5C405</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>44C4EFB7B47D413BB10433FE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B4B13A5C1CC5468A90B12FE4</string>
+				<string>DE97A4AD95554A4F8EB54009</string>
+				<string>10FE0A0F3AAE4697A4761EAC</string>
+				<string>3737EC87DF7144DF9E604151</string>
+				<string>B6358A54016248EEB566A846</string>
+				<string>7D5148E8AA8745AE98F1D6D0</string>
+				<string>2DBF830C14744F0086B7DA04</string>
+				<string>28AD9277EB04407B9428702C</string>
+				<string>5DA44A000D1343F287FD50A8</string>
+				<string>B7154A5A2E40489B92F94EBD</string>
+				<string>C0A8937A30C649D4A5251ABF</string>
+				<string>3B236E46A85C4F44892E4396</string>
+				<string>7942AEA8DE6D41258D39AC51</string>
+				<string>9C2FED3D9A3B40838F5ADB2E</string>
+				<string>5DB46D3294844DEB8B9FAFA9</string>
+				<string>5FB0B70BBBBF4E699F8CCF06</string>
+				<string>6B371E94F0A14328BE21A185</string>
+				<string>897F1DDADE834152911C5E8A</string>
+				<string>CB2276F2B9FE40FD91196D65</string>
+				<string>4FC5D7DA262B424EACF70BF4</string>
+				<string>875149841AF04FC7AE21F7C8</string>
+				<string>B044A39B88F94D6F87664BEE</string>
+				<string>4FA205C4321A41ACA5576A1A</string>
+				<string>DD9D6832D5324C239BF160B8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4684834BCF0049CB89F64A6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLUIAElement+Subclassing.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLUIAElement+Subclassing.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>4B4DDD10040441509FF1A086</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLTerminal.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/Terminal/SLTerminal.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>4E81514EDC624D978FFA27A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods-Integration Tests-acknowledgements.markdown</string>
+			<key>path</key>
+			<string>Pods-Integration Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>4FA205C4321A41ACA5576A1A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>153AD6E1D6EB425484B7010E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>4FC5D7DA262B424EACF70BF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8567F0B82AB416D889FE2A6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>585523F2404946D0AC3F661B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A9A6E0FF88FC407DACB938F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>594A69EDBF4A429F9823BED9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLTextField.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLTextField.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>5DA44A000D1343F287FD50A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C416A4671054AF1987A30E8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>5DB46D3294844DEB8B9FAFA9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F4BDE0C7E96E431195292240</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>5FB0B70BBBBF4E699F8CCF06</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C35FB60A2DCC43D2803CD142</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>63269CB7C97E4BF9BE615635</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLTestController.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/SLTestController.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>64B7821B9B0B4D74B0BEB8DE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Pods-Integration Tests-dummy.m</string>
+			<key>path</key>
+			<string>Pods-Integration Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>6744AB73681941F8B17C0C7D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F8A545E511A0469BBD904E0D</string>
+				<string>8DF6BA35749C48A1B60F362E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B371E94F0A14328BE21A185</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ECA64E1088734E86BBE7AE3B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>6FF5DB7895C342A08C87D919</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSObject+SLAccessibilityDescription.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityDescription.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>70B0D190C3104C8C8B0C5424</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CFD98F8B42E94C6ABB087390</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>743E330E1F674080A7E8E24E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>745688213DFF43F886B573CA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLPopover.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLPopover.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7637A4A7BFED46378846F7E4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLUIAElement.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLUIAElement.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7662F99E60D3438A8BFB18EF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7637A4A7BFED46378846F7E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>7942AEA8DE6D41258D39AC51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2224C7B7844343A590917582</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>7D5148E8AA8745AE98F1D6D0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4B4DDD10040441509FF1A086</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>838AE2D77D9A45FC8EED0A2A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Integration Tests.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Integration Tests.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>842CF91626D0448FBFFF9B85</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLLogger.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Logging/SLLogger.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86656E6BE7AA4A22B1832CC4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSObject+SLVisibility.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/NSObject+SLVisibility.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>867FCAE2195B42F3964BC8AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Xcode</string>
+			<key>path</key>
+			<string>../../../Subliminal/Supporting Files/Xcode</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>875149841AF04FC7AE21F7C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AA3FDE916F5748F8A4B37EFB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>897F1DDADE834152911C5E8A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>135EE9A4B68D48A8AA7D1506</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>89AB16825F6A4C6886ACCAFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLDevice.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/SLDevice.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8BA35A7ACDB84A79AFD6B118</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Subliminal.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Subliminal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8D2D387E703445AEB998EAAF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E24E62357C5F498E85A47585</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8DF6BA35749C48A1B60F362E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -198,225 +1033,29 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>1621C5B403274C4FB33CD9E1</key>
+		<key>8EDD983865A34DF296686901</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B867C4E9BAE9430487FF8C74</string>
+			<string>F8A545E511A0469BBD904E0D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict/>
 		</dict>
-		<key>16C11675A10842148BCE6CE3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30F698668E6147FC833927FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>16E43D08DDFA4681AC5CE50C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>626F478113D64DA392778555</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>19541BAFE1A14E13972CB493</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLAccessibilityPath.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/SLAccessibilityPath.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1BE9A9E796EF45C39AF08ED2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLTextField.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLTextField.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1CDB64CBE2C94345A93C8C36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLTest.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/SLTest.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1DCF254A946C4CA581BF4726</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-Integration Tests-resources.sh</string>
-			<key>path</key>
-			<string>Pods-Integration Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1F4F16C7EBD2472D86FE9009</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLTerminal.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/Terminal/SLTerminal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>206BE425D094466C9A00CED7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E289E7634E9D417AB93EC695</string>
-				<string>1621C5B403274C4FB33CD9E1</string>
-				<string>0BF6CD6AF3C34CA8A4915C7E</string>
-				<string>638FC5A4259C4DB9884B5122</string>
-				<string>F01F5DBEF61B450A8E32AD08</string>
-				<string>DE5F421521EF464ABD91BDDC</string>
-				<string>16E43D08DDFA4681AC5CE50C</string>
-				<string>E5EA0F14BBE24BE7B8509938</string>
-				<string>AF455A4841314E0185801579</string>
-				<string>34CC6BF7772249C6B9E60CD7</string>
-				<string>553D4EE0AE994C7296E44E0A</string>
-				<string>225E79A07F4D4A03AD99E91B</string>
-				<string>7A24CF9F0BE344ECA77D552B</string>
-				<string>60863D2849124A94AE7CACD3</string>
-				<string>56F7A90F487145AFB8726920</string>
-				<string>0246778CC7BB49869290B7EB</string>
-				<string>E5CD004DDC2B4AD3B53F6D27</string>
-				<string>CC1AD804FF294A7BB04C294E</string>
-				<string>BC740D9F47944F279067F5E4</string>
-				<string>52866C65704448ABAFDDEFF9</string>
-				<string>2D7E2866BDD5403185C21B76</string>
-				<string>70B6AFF9B3B64A72A750CEAB</string>
-				<string>748C3D01E83E4F4EA6739A79</string>
-				<string>96F151ED2CB54CD88B11A89E</string>
-				<string>F4D1B731077A4A49915AF5AB</string>
-				<string>099E7360145C43289F7F7DD3</string>
-				<string>977F88C43A1D4DC9A89660CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>21A4B01277A34884856C4599</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLButton.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLButton.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>225E79A07F4D4A03AD99E91B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>74978148F2EB4568BFC1D81A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>266AEE9DFA9F44A6BC8EAE05</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLDevice.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/SLDevice.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>27C5A56DE858441DA4E4B0F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSObject+SLAccessibilityDescription.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityDescription.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2CDBA18602554EE582943BA2</key>
+		<key>90E0D1B10DCC4FA694388575</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>9869337E531441F2B2B73C2B</string>
+				<string>22D5DE8498FA4A1E9B8B5C7F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Resources</string>
+			<string>Local Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2D7E2866BDD5403185C21B76</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D20FBDF4363F4AC7B06CA0CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>2FC06A3A2E8A4F2EBD5841D3</key>
+		<key>92783CD4978C486EBDF743DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -425,43 +1064,58 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SLTestController+AppHooks.h</string>
+			<string>SLAccessibilityPath.h</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/SLTestController+AppHooks.h</string>
+			<string>../../../Subliminal/Sources/Classes/Internal/SLAccessibilityPath.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>2FEFFDED81F242CA95F5EECC</key>
+		<key>92DA6D2DE691439C8C43D3BA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Subliminal.h</string>
+			<string>SLStaticElement.m</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Subliminal.h</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLStaticElement.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>2FFC4AE314BD4C6FA1302120</key>
+		<key>934D16ABB0D64DC0A3FC0C0D</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>02408F86756A4414B3046A00</string>
+				<string>B70EF151764C42E48197833F</string>
+				<string>B25DF86AF8324D568EC51A7B</string>
+				<string>867FCAE2195B42F3964BC8AC</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>SLUIAElement.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLUIAElement.h</string>
+			<string>Subliminal</string>
 			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>30F698668E6147FC833927FA</key>
+		<key>996AA4495DD84F39BCB8DD5A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C15B456AB0BB49A98FAD97F1</string>
+				<string>D8FEDA36D32C4E70A86E9562</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9A2A2A8F169E4F119443060E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -472,14 +1126,14 @@
 			<key>name</key>
 			<string>SLTestController.m</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/SLTestController.m</string>
+			<string>../../../Subliminal/Sources/Classes/SLTestController.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>343A389A6FC149B5BDBA2460</key>
+		<key>9C2FED3D9A3B40838F5ADB2E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>132C11F2F48D446E8011766F</string>
+			<string>BEBD1F10222346579BF47E13</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -488,61 +1142,101 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>34CC6BF7772249C6B9E60CD7</key>
+		<key>9CEF0A9F8F4E4DE890B96C41</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1CDB64CBE2C94345A93C8C36</string>
+			<string>1B9084377A704EBF85E38516</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict/>
 		</dict>
-		<key>357B43EB21834539B7AC7962</key>
+		<key>A0ED125B76CB4200B4EDFD24</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>Pods-Integration Tests-prefix.pch</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>391A8A4DB2844663B8511F66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLWebView.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWebView.m</string>
+			<string>Pods-Integration Tests-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>3ECB9312BE1643658478728B</key>
+		<key>A1AC269603EA498FB852B14D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>119C48228A02480EA3038A97</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>A1EB7D6E74EB4B45A12333CE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>NSObject+SLAccessibilityHierarchy.m</string>
+			<string>Pods-Integration Tests-acknowledgements.plist</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityHierarchy.m</string>
+			<string>Pods-Integration Tests-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>468AA38E177A43569246F387</key>
+		<key>A2C688558AE6459789315AEB</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0450</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>B307B17ECFE1403BAA747C8C</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>16DFB8BE1DE9456BA142568E</string>
+			<key>productRefGroup</key>
+			<string>8D2D387E703445AEB998EAAF</string>
+			<key>projectReferences</key>
+			<array/>
+			<key>targets</key>
+			<array>
+				<string>385B8D44A1714E7083A655E5</string>
+			</array>
+		</dict>
+		<key>A4D17FDC2B3A43E18C1869E2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F30815153AB54C7B8ED7741B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>A59B1EF92F494692B068D8F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E19CF065378B4F519E3AA5D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>A655912083FE429F961ED69B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -551,16 +1245,68 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Pods-Integration Tests-environment.h</string>
+			<string>SLTerminal+ConvenienceFunctions.h</string>
 			<key>path</key>
-			<string>Pods-Integration Tests-environment.h</string>
+			<string>../../../Subliminal/Sources/Classes/Internal/Terminal/SLTerminal+ConvenienceFunctions.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>48374BC583254ACDA67FD29E</key>
+		<key>A9A6E0FF88FC407DACB938F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLTest.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/SLTest.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AA13A4BE1C5D4D819A541E83</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8EDD983865A34DF296686901</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>AA3FDE916F5748F8A4B37EFB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLUIAElement.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLUIAElement.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AEE159E9A46649FE83F6344E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8DD09B9212B44C8B889BCD97</string>
+			<string>CDDEE214656345C5AE6FCFBC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>B044A39B88F94D6F87664BEE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>075A0C7569574E2D8CA0F53A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -569,10 +1315,55 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>48E3E6979EC74A4A955AC5E8</key>
+		<key>B25DF86AF8324D568EC51A7B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Instruments</string>
+			<key>path</key>
+			<string>../../../Subliminal/Supporting Files/Instruments</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B272EA8DC5A248B895E950E4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>266AEE9DFA9F44A6BC8EAE05</string>
+			<string>01BD799658364D97ABEE815E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>B307B17ECFE1403BAA747C8C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>30A928A106364DE5A8159B59</string>
+				<string>C627595459554603A0C15D87</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B3DA4B44D72249E3AEE0CF83</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0619866198114FCCAA0F42CD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>B4B13A5C1CC5468A90B12FE4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86656E6BE7AA4A22B1832CC4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -581,10 +1372,117 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>4999CA324A7E4A27881F03A9</key>
+		<key>B6358A54016248EEB566A846</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB4CCF513B244C17AF3FDE79</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>B70EF151764C42E48197833F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>CI</string>
+			<key>path</key>
+			<string>../../../Subliminal/Supporting Files/CI</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B7154A5A2E40489B92F94EBD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A2A2A8F169E4F119443060E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>B92B3363F50347A3AB776D62</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLStringUtilities.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/Terminal/SLStringUtilities.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B974DA2B7C9548159D8D7D36</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods-Integration Tests-resources.sh</string>
+			<key>path</key>
+			<string>Pods-Integration Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B99F59D174FF4FB48B060C89</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLButton.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLButton.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>BEBD1F10222346579BF47E13</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLAlert.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLAlert.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C0A8937A30C649D4A5251ABF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>89AB16825F6A4C6886ACCAFA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>C15B456AB0BB49A98FAD97F1</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>B5A25556EF0844E391FB993C</string>
+			<string>838AE2D77D9A45FC8EED0A2A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -639,10 +1537,115 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>49C4F71030474D8B9E950B43</key>
+		<key>C2459FB5AE104230A40DA4D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSObject+SLAccessibilityDescription.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityDescription.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C35FB60A2DCC43D2803CD142</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLElement.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLElement.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C4B9C105347C458595C2585A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A59B1EF92F494692B068D8F4</string>
+				<string>0B34E59CE53E420E922D26B7</string>
+				<string>B3DA4B44D72249E3AEE0CF83</string>
+				<string>C65588BA40C04EDAAC6014E3</string>
+				<string>F29C68712C2243F989452CBC</string>
+				<string>70B0D190C3104C8C8B0C5424</string>
+				<string>F85063C5716A4621BFBC11D3</string>
+				<string>2E68B27817F841FBA21EBFA3</string>
+				<string>42B2342379D34A3BA9BB1590</string>
+				<string>585523F2404946D0AC3F661B</string>
+				<string>A1AC269603EA498FB852B14D</string>
+				<string>EE89A3D064054C699CDF82E8</string>
+				<string>444F9F76370D4BCD91A06A42</string>
+				<string>1DC62DC2E4854298BAC675A6</string>
+				<string>2518D3B3AB834AF09C222E42</string>
+				<string>F4211596260342D29A458282</string>
+				<string>039B4ED2D69B4949BE5CC5BD</string>
+				<string>B272EA8DC5A248B895E950E4</string>
+				<string>AEE159E9A46649FE83F6344E</string>
+				<string>191A44E829174190BD758B73</string>
+				<string>CFAC2683C6514EA4BB826A7F</string>
+				<string>EB59148B36A549248E17B3DD</string>
+				<string>E490089432964DB383886EFC</string>
+				<string>7662F99E60D3438A8BFB18EF</string>
+				<string>9CEF0A9F8F4E4DE890B96C41</string>
+				<string>A4D17FDC2B3A43E18C1869E2</string>
+				<string>E02E5581FBB547DB94BBDDA1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C60BC32F5E0E4D2591AB8A71</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLTest.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/SLTest.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C627595459554603A0C15D87</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C65588BA40C04EDAAC6014E3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AD5A06C0D1A4441BBD4DD39F</string>
+			<string>135828DFFDF646469551546B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>CB2276F2B9FE40FD91196D65</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92DA6D2DE691439C8C43D3BA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -651,7 +1654,7 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>4A113292795C4321940D04E3</key>
+		<key>CDDEE214656345C5AE6FCFBC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -660,16 +1663,134 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SLButton.h</string>
+			<string>SLKeyboard.h</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLButton.h</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLKeyboard.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>4D30D77B2C68476AAA06B5D3</key>
+		<key>CFAC2683C6514EA4BB826A7F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E9652095FF4B429DB452F632</string>
+			<string>FAD22B7A19BD4895A0D0D7A7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>CFD98F8B42E94C6ABB087390</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SLStringUtilities.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/Terminal/SLStringUtilities.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D0555EFABE52487AB6CFD16E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>934D16ABB0D64DC0A3FC0C0D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8FEDA36D32C4E70A86E9562</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>838AE2D77D9A45FC8EED0A2A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-Integration Tests-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PODS_HEADERS_SEARCH_PATHS</key>
+				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
+				<key>PODS_ROOT</key>
+				<string>${SRCROOT}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>DBA6CDA625574B01B73637F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLLogger.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Logging/SLLogger.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>DD9D6832D5324C239BF160B8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>64B7821B9B0B4D74B0BEB8DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>DE97A4AD95554A4F8EB54009</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3DD7A73FFAB14B9DAB8A42F0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -678,7 +1799,31 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>4ECF48016C18439795C6753B</key>
+		<key>E02E5581FBB547DB94BBDDA1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8BA35A7ACDB84A79AFD6B118</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>E19CF065378B4F519E3AA5D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSObject+SLVisibility.h</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/Internal/NSObject+SLVisibility.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>E24E62357C5F498E85A47585</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -693,584 +1838,16 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>4FABC3DE420949089DE33DA3</key>
+		<key>E490089432964DB383886EFC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>391A8A4DB2844663B8511F66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>50E93B21FFF8450182D5A51E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A7472F5B408344EF8E71010A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>516CEDA9DEB4489180D3FED3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ADAABA0EC95740CAB6CC5F65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>51A932DAC12E47D69ED236EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Integration Tests-dummy.m</string>
-			<key>path</key>
-			<string>Pods-Integration Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>52866C65704448ABAFDDEFF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B46A8497B82A44A58AA2CC76</string>
+			<string>4684834BCF0049CB89F64A6E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict/>
 		</dict>
-		<key>54C0E4A691E243D99ABBF871</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLMainThreadRef.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/SLMainThreadRef.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>553D4EE0AE994C7296E44E0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FC06A3A2E8A4F2EBD5841D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5603DBA45FDE4BA187EF2BB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLPopover.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLPopover.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>56F7A90F487145AFB8726920</key>
-		<dict>
-			<key>fileRef</key>
-			<string>82E6F2B11EFA41899CBBDB8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5879FE43BDD04D55A2B40201</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-Integration Tests-acknowledgements.plist</string>
-			<key>path</key>
-			<string>Pods-Integration Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5AE1D74F19794D7296FDB18E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLWebView.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWebView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5B85515B420E4E398FB3A886</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F43B3B0EBBC74758A0373B7C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BAA825937EA4937A27E1AC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLDevice.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/SLDevice.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>60863D2849124A94AE7CACD3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>089BAD7B380D489EA721FB19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>626F478113D64DA392778555</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLTerminal+ConvenienceFunctions.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/Terminal/SLTerminal+ConvenienceFunctions.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>62F43143B4674C068C79CA87</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51A932DAC12E47D69ED236EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>63235BAAB27F4C73BC030223</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4ECF48016C18439795C6753B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>638FC5A4259C4DB9884B5122</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84AF52C33C364297980BC786</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>6E90CE0DAA01458885B42461</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4E467203B7841F5B56AF3D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6FD57277FE1F4CAEBFD709C5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DA744BBC18684B70BC157234</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E86ED3A5B40248FAAE7D7489</string>
-				<string>9FF0942BFEFB45A5A0C9887E</string>
-				<string>206BE425D094466C9A00CED7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Integration Tests</string>
-			<key>productName</key>
-			<string>Pods-Integration Tests</string>
-			<key>productReference</key>
-			<string>4ECF48016C18439795C6753B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>70B6AFF9B3B64A72A750CEAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1BE9A9E796EF45C39AF08ED2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>748C3D01E83E4F4EA6739A79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE4C500312A94A7FAAC059E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>74978148F2EB4568BFC1D81A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLTestController.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/SLTestController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>761EAAFC15F145D38A2FDAAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>357B43EB21834539B7AC7962</string>
-				<string>14954FE2477044038AC1EB2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77A8CCAD60FB4E6BAAECF0DB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DD6F3AB914BB44309967AE66</string>
-				<string>B5768B8673A74EE1B4DEF33E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7A24CF9F0BE344ECA77D552B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5BAA825937EA4937A27E1AC1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>7C2A4BB7D6734B599CA33231</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLElement.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLElement.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>82E6F2B11EFA41899CBBDB8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSObject+SLAccessibilityHierarchy.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityHierarchy.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>84AF52C33C364297980BC786</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLTest+Internal.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/SLTest+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>89395446FD9D4D67BD619E8C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Instruments</string>
-			<key>path</key>
-			<string>Subliminal/Supporting Files/Instruments</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8A2C9D7E196B4E98AA516033</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLStringUtilities.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/Terminal/SLStringUtilities.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8B0936221775463B926E3EA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLKeyboard.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLKeyboard.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8DD09B9212B44C8B889BCD97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLLogger.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Logging/SLLogger.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8E0C372DBE7544FA8AA15F94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19541BAFE1A14E13972CB493</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>90152130C7A34E92BEB7FAC4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9E97ACD571E477D856F21D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>96F151ED2CB54CD88B11A89E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FFC4AE314BD4C6FA1302120</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>977F88C43A1D4DC9A89660CE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FEFFDED81F242CA95F5EECC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>981E1AAC17484C3A85695476</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-Integration Tests-acknowledgements.markdown</string>
-			<key>path</key>
-			<string>Pods-Integration Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9869337E531441F2B2B73C2B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1320835197FE48338E1DA6CA</string>
-				<string>FB0F675E00344440B53675F0</string>
-				<string>89395446FD9D4D67BD619E8C</string>
-				<string>FDF319C40A644DF7837A66EF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Subliminal</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C3232BA361C44E88455CF93</key>
-		<dict>
-			<key>fileRef</key>
-			<string>357B43EB21834539B7AC7962</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9FA1A08AD19C4E8AB9CA0348</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5603DBA45FDE4BA187EF2BB1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9FF0942BFEFB45A5A0C9887E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9C3232BA361C44E88455CF93</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A583BD3291914EF6AD71A65C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>761EAAFC15F145D38A2FDAAB</string>
-				<string>5B85515B420E4E398FB3A886</string>
-				<string>63235BAAB27F4C73BC030223</string>
-				<string>2CDBA18602554EE582943BA2</string>
-				<string>BEE4D81BEDAA4ED0B1149253</string>
-				<string>FAC0277BDF0C4175AAEF0ACF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6D5C3B3BF0C400FB27B4002</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2BEC7DE6A4849119B2B1231</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A7472F5B408344EF8E71010A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLUIAElement.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLUIAElement.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AD5A06C0D1A4441BBD4DD39F</key>
+		<key>EB4CCF513B244C17AF3FDE79</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1281,187 +1858,20 @@
 			<key>name</key>
 			<string>SLTerminal+ConvenienceFunctions.m</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/Terminal/SLTerminal+ConvenienceFunctions.m</string>
+			<string>../../../Subliminal/Sources/Classes/Internal/Terminal/SLTerminal+ConvenienceFunctions.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>ADAABA0EC95740CAB6CC5F65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLTextField.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLTextField.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AF455A4841314E0185801579</key>
+		<key>EB59148B36A549248E17B3DD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FF1D76DD73D64373919C96C1</string>
+			<string>594A69EDBF4A429F9823BED9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict/>
 		</dict>
-		<key>B46A8497B82A44A58AA2CC76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLPopover.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLPopover.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B508EDA6554F4D27924CE472</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLMainThreadRef.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/SLMainThreadRef.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B5768B8673A74EE1B4DEF33E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B5A25556EF0844E391FB993C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Integration Tests.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Integration Tests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B7E560D33954467694198FD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-Integration Tests-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-Integration Tests-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B867C4E9BAE9430487FF8C74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLAccessibilityPath.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/SLAccessibilityPath.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B9E97ACD571E477D856F21D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLAlert.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLAlert.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BC740D9F47944F279067F5E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8B0936221775463B926E3EA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>BEE4D81BEDAA4ED0B1149253</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>02F346D1C2E54AF580B5CEC4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E6BA5EC63E49FD98EE68E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLTerminal.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/Terminal/SLTerminal.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C42C66F1E8D743478893AB56</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLElement.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLElement.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>CA6240426C4444E89956267A</key>
+		<key>ECA64E1088734E86BBE7AE3B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1472,11 +1882,29 @@
 			<key>name</key>
 			<string>SLKeyboard.m</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLKeyboard.m</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLKeyboard.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>CBC94022104C40F3ACDAA46F</key>
+		<key>EE89A3D064054C699CDF82E8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>63269CB7C97E4BF9BE615635</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>F29C68712C2243F989452CBC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>239E275AF63547579A9E9B21</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>F30815153AB54C7B8ED7741B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1487,50 +1915,74 @@
 			<key>name</key>
 			<string>SLWindow.h</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWindow.h</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLWindow.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>CBFE52F9EFCF44A1B3B44E5A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLAlert.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLAlert.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>CC1AD804FF294A7BB04C294E</key>
+		<key>F4211596260342D29A458282</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C42C66F1E8D743478893AB56</string>
+			<string>2091E75B08AC42AE8AF8057E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict/>
 		</dict>
-		<key>CE4C500312A94A7FAAC059E5</key>
+		<key>F4BDE0C7E96E431195292240</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SLUIAElement+Subclassing.h</string>
+			<string>SLButton.m</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLUIAElement+Subclassing.h</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLButton.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>D20FBDF4363F4AC7B06CA0CB</key>
+		<key>F85063C5716A4621BFBC11D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A655912083FE429F961ED69B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>F8567F0B82AB416D889FE2A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SLTextField.m</string>
+			<key>path</key>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLTextField.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F8A545E511A0469BBD904E0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>FAD22B7A19BD4895A0D0D7A7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1541,464 +1993,12 @@
 			<key>name</key>
 			<string>SLStaticElement.h</string>
 			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLStaticElement.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D8A934D3144A4B4D80D2A870</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>77A8CCAD60FB4E6BAAECF0DB</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>A583BD3291914EF6AD71A65C</string>
-			<key>productRefGroup</key>
-			<string>63235BAAB27F4C73BC030223</string>
-			<key>projectReferences</key>
-			<array/>
-			<key>targets</key>
-			<array>
-				<string>6FD57277FE1F4CAEBFD709C5</string>
-			</array>
-		</dict>
-		<key>D9D85ACE63E245A098268408</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3ECB9312BE1643658478728B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DA744BBC18684B70BC157234</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4999CA324A7E4A27881F03A9</string>
-				<string>00E052B7F1734AE6AE0D9715</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DC8830690B8848D2A980EA39</key>
-		<dict>
-			<key>fileRef</key>
-			<string>21A4B01277A34884856C4599</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DCA3AB94C6344D5A952C84DE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0E6BA5EC63E49FD98EE68E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DD6F3AB914BB44309967AE66</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DD84B5B57D5142B1B007C16C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLTestController+AppHooks.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/SLTestController+AppHooks.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DDEAC33E2C6944DC8630CBB9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLStringUtilities.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/Terminal/SLStringUtilities.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DE5F421521EF464ABD91BDDC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A2C9D7E196B4E98AA516033</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E289E7634E9D417AB93EC695</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0839BAC823D649EABCA45C10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E2BEC7DE6A4849119B2B1231</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSObject+SLVisibility.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/NSObject+SLVisibility.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E3BE027DCCBA4DAB9F159117</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA6240426C4444E89956267A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E4DD0E040FAA4900B70FF493</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C2A4BB7D6734B599CA33231</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E4E467203B7841F5B56AF3D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLStaticElement.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLStaticElement.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E5CD004DDC2B4AD3B53F6D27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A113292795C4321940D04E3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E5EA0F14BBE24BE7B8509938</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1F4F16C7EBD2472D86FE9009</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E86ED3A5B40248FAAE7D7489</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A6D5C3B3BF0C400FB27B4002</string>
-				<string>8E0C372DBE7544FA8AA15F94</string>
-				<string>0B404055510D45798B194D79</string>
-				<string>ED6894A816D9451FA68CD1C5</string>
-				<string>49C4F71030474D8B9E950B43</string>
-				<string>DCA3AB94C6344D5A952C84DE</string>
-				<string>48374BC583254ACDA67FD29E</string>
-				<string>4D30D77B2C68476AAA06B5D3</string>
-				<string>EF13FC98D1C34B328EFD0FEB</string>
-				<string>16C11675A10842148BCE6CE3</string>
-				<string>48E3E6979EC74A4A955AC5E8</string>
-				<string>FBE308B8EE8041CF81DE54B2</string>
-				<string>D9D85ACE63E245A098268408</string>
-				<string>90152130C7A34E92BEB7FAC4</string>
-				<string>DC8830690B8848D2A980EA39</string>
-				<string>E4DD0E040FAA4900B70FF493</string>
-				<string>E3BE027DCCBA4DAB9F159117</string>
-				<string>9FA1A08AD19C4E8AB9CA0348</string>
-				<string>6E90CE0DAA01458885B42461</string>
-				<string>516CEDA9DEB4489180D3FED3</string>
-				<string>50E93B21FFF8450182D5A51E</string>
-				<string>4FABC3DE420949089DE33DA3</string>
-				<string>343A389A6FC149B5BDBA2460</string>
-				<string>62F43143B4674C068C79CA87</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9652095FF4B429DB452F632</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SLTest.m</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/SLTest.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>ED6894A816D9451FA68CD1C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DDEAC33E2C6944DC8630CBB9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>EF13FC98D1C34B328EFD0FEB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD84B5B57D5142B1B007C16C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F01F5DBEF61B450A8E32AD08</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFD8C4A804FF47609E3ACD4F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F43B3B0EBBC74758A0373B7C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0839BAC823D649EABCA45C10</string>
-				<string>E2BEC7DE6A4849119B2B1231</string>
-				<string>B867C4E9BAE9430487FF8C74</string>
-				<string>19541BAFE1A14E13972CB493</string>
-				<string>B508EDA6554F4D27924CE472</string>
-				<string>54C0E4A691E243D99ABBF871</string>
-				<string>84AF52C33C364297980BC786</string>
-				<string>FFD8C4A804FF47609E3ACD4F</string>
-				<string>8A2C9D7E196B4E98AA516033</string>
-				<string>DDEAC33E2C6944DC8630CBB9</string>
-				<string>626F478113D64DA392778555</string>
-				<string>AD5A06C0D1A4441BBD4DD39F</string>
-				<string>1F4F16C7EBD2472D86FE9009</string>
-				<string>C0E6BA5EC63E49FD98EE68E9</string>
-				<string>FF1D76DD73D64373919C96C1</string>
-				<string>8DD09B9212B44C8B889BCD97</string>
-				<string>1CDB64CBE2C94345A93C8C36</string>
-				<string>E9652095FF4B429DB452F632</string>
-				<string>2FC06A3A2E8A4F2EBD5841D3</string>
-				<string>DD84B5B57D5142B1B007C16C</string>
-				<string>74978148F2EB4568BFC1D81A</string>
-				<string>30F698668E6147FC833927FA</string>
-				<string>5BAA825937EA4937A27E1AC1</string>
-				<string>266AEE9DFA9F44A6BC8EAE05</string>
-				<string>089BAD7B380D489EA721FB19</string>
-				<string>27C5A56DE858441DA4E4B0F1</string>
-				<string>82E6F2B11EFA41899CBBDB8E</string>
-				<string>3ECB9312BE1643658478728B</string>
-				<string>CBFE52F9EFCF44A1B3B44E5A</string>
-				<string>B9E97ACD571E477D856F21D2</string>
-				<string>4A113292795C4321940D04E3</string>
-				<string>21A4B01277A34884856C4599</string>
-				<string>C42C66F1E8D743478893AB56</string>
-				<string>7C2A4BB7D6734B599CA33231</string>
-				<string>8B0936221775463B926E3EA1</string>
-				<string>CA6240426C4444E89956267A</string>
-				<string>B46A8497B82A44A58AA2CC76</string>
-				<string>5603DBA45FDE4BA187EF2BB1</string>
-				<string>D20FBDF4363F4AC7B06CA0CB</string>
-				<string>E4E467203B7841F5B56AF3D6</string>
-				<string>1BE9A9E796EF45C39AF08ED2</string>
-				<string>ADAABA0EC95740CAB6CC5F65</string>
-				<string>CE4C500312A94A7FAAC059E5</string>
-				<string>2FFC4AE314BD4C6FA1302120</string>
-				<string>A7472F5B408344EF8E71010A</string>
-				<string>5AE1D74F19794D7296FDB18E</string>
-				<string>391A8A4DB2844663B8511F66</string>
-				<string>CBC94022104C40F3ACDAA46F</string>
-				<string>132C11F2F48D446E8011766F</string>
-				<string>2FEFFDED81F242CA95F5EECC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Subliminal</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4D1B731077A4A49915AF5AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5AE1D74F19794D7296FDB18E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>FAC0277BDF0C4175AAEF0ACF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>FB0F675E00344440B53675F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CI</string>
-			<key>path</key>
-			<string>Subliminal/Supporting Files/CI</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FBE308B8EE8041CF81DE54B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27C5A56DE858441DA4E4B0F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>FDF319C40A644DF7837A66EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Xcode</string>
-			<key>path</key>
-			<string>Subliminal/Supporting Files/Xcode</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FF1D76DD73D64373919C96C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLLogger.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Logging/SLLogger.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FFD8C4A804FF47609E3ACD4F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SLTestController+Internal.h</string>
-			<key>path</key>
-			<string>Subliminal/Sources/Classes/Internal/SLTestController+Internal.h</string>
+			<string>../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/SLStaticElement.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>D8A934D3144A4B4D80D2A870</string>
+	<string>A2C688558AE6459789315AEB</string>
 </dict>
 </plist>

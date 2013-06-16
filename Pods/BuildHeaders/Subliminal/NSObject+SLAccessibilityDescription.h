@@ -1,1 +1,1 @@
-../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityDescription.h
+../../../../../Subliminal/Sources/Classes/UIAutomation/User Interface Elements/NSObject+SLAccessibilityDescription.h

@@ -2,13 +2,13 @@ PODS:
   - Subliminal (1.1.0)
 
 DEPENDENCIES:
-  - Subliminal (from `https://github.com/MaxGabriel/Subliminal.git`)
+  - Subliminal (from `~/Documents/Clones/iOS/SubliminalForks/Subliminal`)
 
 EXTERNAL SOURCES:
   Subliminal:
-    :git: https://github.com/MaxGabriel/Subliminal.git
+    :path: ~/Documents/Clones/iOS/SubliminalForks/Subliminal
 
 SPEC CHECKSUMS:
-  Subliminal: 6c8ba1d58541a99938a8e6f3ff5eb98a1ca22ad2
+  Subliminal: ccb8dcc253d56e88b29024790ac5998828ee1f4c
 
 COCOAPODS: 0.20.2
