@@ -18,9 +18,26 @@
 		5050072D176CD85E000CC5B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050072C176CD85E000CC5B9 /* Default-568h@2x.png */; };
 		50500730176CD85E000CC5B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5050072E176CD85E000CC5B9 /* MainStoryboard.storyboard */; };
 		50500733176CD85E000CC5B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50500732176CD85E000CC5B9 /* ViewController.m */; };
+		5050073C176CDB12000CC5B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50500722176CD85E000CC5B9 /* main.m */; };
+		5050073D176CDB12000CC5B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50500726176CD85E000CC5B9 /* AppDelegate.m */; };
+		5050073E176CDB12000CC5B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50500732176CD85E000CC5B9 /* ViewController.m */; };
+		50500740176CDB12000CC5B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50500716176CD85E000CC5B9 /* UIKit.framework */; };
+		50500741176CDB12000CC5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50500718176CD85E000CC5B9 /* Foundation.framework */; };
+		50500742176CDB12000CC5B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5050071A176CD85E000CC5B9 /* CoreGraphics.framework */; };
+		50500743176CDB12000CC5B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEFEBE291E24A41A4220D6C /* libPods.a */; };
+		50500745176CDB12000CC5B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5050071F176CD85E000CC5B9 /* InfoPlist.strings */; };
+		50500746176CDB12000CC5B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50500728176CD85E000CC5B9 /* Default.png */; };
+		50500747176CDB12000CC5B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050072A176CD85E000CC5B9 /* Default@2x.png */; };
+		50500748176CDB12000CC5B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050072C176CD85E000CC5B9 /* Default-568h@2x.png */; };
+		50500749176CDB12000CC5B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5050072E176CD85E000CC5B9 /* MainStoryboard.storyboard */; };
+		50500752176CDEBA000CC5B9 /* TestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 50500751176CDEBA000CC5B9 /* TestButton.m */; };
+		5717024CBEDB4987AF9BBFCB /* libPods-Integration Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB6F40D9C6248A49E5AB96B /* libPods-Integration Tests.a */; };
+		C1A47230DDC6450DB2AAE18C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEFEBE291E24A41A4220D6C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CEFEBE291E24A41A4220D6C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3977111765C748ECBCD9C73C /* Pods-Integration Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Integration Tests.xcconfig"; path = "Pods/Pods-Integration Tests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		50500713176CD85E000CC5B9 /* SubliminalPod3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubliminalPod3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50500716176CD85E000CC5B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50500718176CD85E000CC5B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +54,11 @@
 		5050072F176CD85E000CC5B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		50500731176CD85E000CC5B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		50500732176CD85E000CC5B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5050074E176CDB12000CC5B9 /* SubliminalPod3 (Integration Tests).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SubliminalPod3 (Integration Tests).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5050074F176CDB12000CC5B9 /* Integration Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Integration Tests-Info.plist"; path = "/Users/Max/Documents/Clones/iOS/SubliminalForks/SubliminalPod3/SubliminalPod3/Integration Tests/Integration Tests-Info.plist"; sourceTree = "<absolute>"; };
+		50500751176CDEBA000CC5B9 /* TestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestButton.m; sourceTree = "<group>"; };
+		BDB6F40D9C6248A49E5AB96B /* libPods-Integration Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Integration Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F660DBFCEB4148F08241A71E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,19 @@
 				50500717176CD85E000CC5B9 /* UIKit.framework in Frameworks */,
 				50500719176CD85E000CC5B9 /* Foundation.framework in Frameworks */,
 				5050071B176CD85E000CC5B9 /* CoreGraphics.framework in Frameworks */,
+				C1A47230DDC6450DB2AAE18C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5050073F176CDB12000CC5B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50500740176CDB12000CC5B9 /* UIKit.framework in Frameworks */,
+				50500741176CDB12000CC5B9 /* Foundation.framework in Frameworks */,
+				50500742176CDB12000CC5B9 /* CoreGraphics.framework in Frameworks */,
+				50500743176CDB12000CC5B9 /* libPods.a in Frameworks */,
+				5717024CBEDB4987AF9BBFCB /* libPods-Integration Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +91,12 @@
 		5050070A176CD85E000CC5B9 = {
 			isa = PBXGroup;
 			children = (
+				50500750176CDB28000CC5B9 /* Integration Tests */,
 				5050071C176CD85E000CC5B9 /* SubliminalPod3 */,
 				50500715176CD85E000CC5B9 /* Frameworks */,
 				50500714176CD85E000CC5B9 /* Products */,
+				F660DBFCEB4148F08241A71E /* Pods.xcconfig */,
+				3977111765C748ECBCD9C73C /* Pods-Integration Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				50500713176CD85E000CC5B9 /* SubliminalPod3.app */,
+				5050074E176CDB12000CC5B9 /* SubliminalPod3 (Integration Tests).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +115,8 @@
 				50500716176CD85E000CC5B9 /* UIKit.framework */,
 				50500718176CD85E000CC5B9 /* Foundation.framework */,
 				5050071A176CD85E000CC5B9 /* CoreGraphics.framework */,
+				0CEFEBE291E24A41A4220D6C /* libPods.a */,
+				BDB6F40D9C6248A49E5AB96B /* libPods-Integration Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +148,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50500750176CDB28000CC5B9 /* Integration Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5050074F176CDB12000CC5B9 /* Integration Tests-Info.plist */,
+				50500751176CDEBA000CC5B9 /* TestButton.m */,
+			);
+			path = "Integration Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50500736176CD85E000CC5B9 /* Build configuration list for PBXNativeTarget "SubliminalPod3" */;
 			buildPhases = (
+				F5CAF057573848D3B9D8E84F /* Check Pods Manifest.lock */,
 				5050070F176CD85E000CC5B9 /* Sources */,
 				50500710176CD85E000CC5B9 /* Frameworks */,
 				50500711176CD85E000CC5B9 /* Resources */,
+				AE019E6D454944A4B5FCA8C8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +177,27 @@
 			name = SubliminalPod3;
 			productName = SubliminalPod3;
 			productReference = 50500713176CD85E000CC5B9 /* SubliminalPod3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50500739176CDB12000CC5B9 /* Integration Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5050074B176CDB12000CC5B9 /* Build configuration list for PBXNativeTarget "Integration Tests" */;
+			buildPhases = (
+				24F8D62AABE4461FB54557E9 /* Check Pods Manifest.lock */,
+				5050073A176CDB12000CC5B9 /* Check Pods Manifest.lock */,
+				5050073B176CDB12000CC5B9 /* Sources */,
+				5050073F176CDB12000CC5B9 /* Frameworks */,
+				50500744176CDB12000CC5B9 /* Resources */,
+				5050074A176CDB12000CC5B9 /* Copy Pods Resources */,
+				C340A9C0196841098BD11CAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Integration Tests";
+			productName = SubliminalPod3;
+			productReference = 5050074E176CDB12000CC5B9 /* SubliminalPod3 (Integration Tests).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				50500712176CD85E000CC5B9 /* SubliminalPod3 */,
+				50500739176CDB12000CC5B9 /* Integration Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -166,7 +240,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50500744176CDB12000CC5B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50500745176CDB12000CC5B9 /* InfoPlist.strings in Resources */,
+				50500746176CDB12000CC5B9 /* Default.png in Resources */,
+				50500747176CDB12000CC5B9 /* Default@2x.png in Resources */,
+				50500748176CDB12000CC5B9 /* Default-568h@2x.png in Resources */,
+				50500749176CDB12000CC5B9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F8D62AABE4461FB54557E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		5050073A176CDB12000CC5B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		5050074A176CDB12000CC5B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		AE019E6D454944A4B5FCA8C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C340A9C0196841098BD11CAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Integration Tests-resources.sh\"\n";
+		};
+		F5CAF057573848D3B9D8E84F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5050070F176CD85E000CC5B9 /* Sources */ = {
@@ -176,6 +349,17 @@
 				50500723176CD85E000CC5B9 /* main.m in Sources */,
 				50500727176CD85E000CC5B9 /* AppDelegate.m in Sources */,
 				50500733176CD85E000CC5B9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5050073B176CDB12000CC5B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5050073C176CDB12000CC5B9 /* main.m in Sources */,
+				5050073D176CDB12000CC5B9 /* AppDelegate.m in Sources */,
+				5050073E176CDB12000CC5B9 /* ViewController.m in Sources */,
+				50500752176CDEBA000CC5B9 /* TestButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +443,7 @@
 		};
 		50500737176CD85E000CC5B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F660DBFCEB4148F08241A71E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubliminalPod3/SubliminalPod3-Prefix.pch";
@@ -270,11 +455,32 @@
 		};
 		50500738176CD85E000CC5B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F660DBFCEB4148F08241A71E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubliminalPod3/SubliminalPod3-Prefix.pch";
 				INFOPLIST_FILE = "SubliminalPod3/SubliminalPod3-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5050074C176CDB12000CC5B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3977111765C748ECBCD9C73C /* Pods-Integration Tests.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubliminalPod3/SubliminalPod3-Prefix.pch";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5050074D176CDB12000CC5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3977111765C748ECBCD9C73C /* Pods-Integration Tests.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubliminalPod3/SubliminalPod3-Prefix.pch";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +504,16 @@
 				50500738176CD85E000CC5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5050074B176CDB12000CC5B9 /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5050074C176CDB12000CC5B9 /* Debug */,
+				5050074D176CDB12000CC5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
