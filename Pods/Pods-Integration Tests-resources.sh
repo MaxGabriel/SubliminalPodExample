@@ -28,10 +28,6 @@ install_resource()
       ;;
   esac
 }
-install_resource '../../../Subliminal/Rakefile'
-install_resource '../../../Subliminal/Supporting Files/CI'
-install_resource '../../../Subliminal/Supporting Files/Instruments'
-install_resource '../../../Subliminal/Supporting Files/Xcode'
 
 rsync -avr --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rm "$RESOURCES_TO_COPY"

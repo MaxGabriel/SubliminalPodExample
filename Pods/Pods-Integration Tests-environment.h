@@ -9,6 +9,6 @@
 // Subliminal
 #define COCOAPODS_POD_AVAILABLE_Subliminal
 #define COCOAPODS_VERSION_MAJOR_Subliminal 1
-#define COCOAPODS_VERSION_MINOR_Subliminal 1
-#define COCOAPODS_VERSION_PATCH_Subliminal 0
+#define COCOAPODS_VERSION_MINOR_Subliminal 0
+#define COCOAPODS_VERSION_PATCH_Subliminal 1
 
