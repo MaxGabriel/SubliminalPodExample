@@ -6,9 +6,21 @@
 // project.
 
 
+// MTRecursiveKVC
+#define COCOAPODS_POD_AVAILABLE_MTRecursiveKVC
+#define COCOAPODS_VERSION_MAJOR_MTRecursiveKVC 1
+#define COCOAPODS_VERSION_MINOR_MTRecursiveKVC 0
+#define COCOAPODS_VERSION_PATCH_MTRecursiveKVC 0
+
 // Subliminal
 #define COCOAPODS_POD_AVAILABLE_Subliminal
 #define COCOAPODS_VERSION_MAJOR_Subliminal 1
 #define COCOAPODS_VERSION_MINOR_Subliminal 0
 #define COCOAPODS_VERSION_PATCH_Subliminal 1
+
+// TTTAttributedLabel
+#define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
+#define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
+#define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 7
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 0
 

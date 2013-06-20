@@ -1,14 +1,20 @@
 PODS:
+  - MTRecursiveKVC (1.0.0)
   - Subliminal (1.0.1)
+  - TTTAttributedLabel (1.7.0)
 
 DEPENDENCIES:
+  - MTRecursiveKVC
   - Subliminal (from `~/Documents/Clones/iOS/SubliminalForks/Subliminal`)
+  - TTTAttributedLabel
 
 EXTERNAL SOURCES:
   Subliminal:
     :path: ~/Documents/Clones/iOS/SubliminalForks/Subliminal
 
 SPEC CHECKSUMS:
-  Subliminal: 5cfb530d4e1aa9ec396b9d70beb2b5c18df97e8a
+  MTRecursiveKVC: ce3538d357cbae7779096f776fd95d098d8a61f3
+  Subliminal: 141147664ad2deb9de1f15869b69bbf7a42e391e
+  TTTAttributedLabel: c148a21987b28b3064bc9a96cea2385e610383bf
 
 COCOAPODS: 0.20.2

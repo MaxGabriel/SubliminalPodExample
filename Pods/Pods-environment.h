@@ -12,3 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_MTRecursiveKVC 0
 #define COCOAPODS_VERSION_PATCH_MTRecursiveKVC 0
 
+// TTTAttributedLabel
+#define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
+#define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
+#define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 7
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 0
+

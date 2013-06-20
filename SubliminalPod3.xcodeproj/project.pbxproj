@@ -24,7 +24,6 @@
 		50500740176CDB12000CC5B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50500716176CD85E000CC5B9 /* UIKit.framework */; };
 		50500741176CDB12000CC5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50500718176CD85E000CC5B9 /* Foundation.framework */; };
 		50500742176CDB12000CC5B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5050071A176CD85E000CC5B9 /* CoreGraphics.framework */; };
-		50500743176CDB12000CC5B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEFEBE291E24A41A4220D6C /* libPods.a */; };
 		50500745176CDB12000CC5B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5050071F176CD85E000CC5B9 /* InfoPlist.strings */; };
 		50500746176CDB12000CC5B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50500728176CD85E000CC5B9 /* Default.png */; };
 		50500747176CDB12000CC5B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050072A176CD85E000CC5B9 /* Default@2x.png */; };
@@ -80,7 +79,6 @@
 				50500740176CDB12000CC5B9 /* UIKit.framework in Frameworks */,
 				50500741176CDB12000CC5B9 /* Foundation.framework in Frameworks */,
 				50500742176CDB12000CC5B9 /* CoreGraphics.framework in Frameworks */,
-				50500743176CDB12000CC5B9 /* libPods.a in Frameworks */,
 				5717024CBEDB4987AF9BBFCB /* libPods-Integration Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
