@@ -1,1 +1,1 @@
-../../Subliminal/Sources/Classes/UIAutomation/SLDevice.h
+../../../../../Subliminal/Sources/Classes/UIAutomation/SLDevice.h
