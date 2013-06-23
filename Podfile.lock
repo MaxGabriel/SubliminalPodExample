@@ -1,10 +1,17 @@
 PODS:
+  - Subliminal (1.0.1)
   - TTTAttributedLabel (1.7.0)
 
 DEPENDENCIES:
+  - Subliminal (from `https://github.com/MaxGabriel/Subliminal.git`)
   - TTTAttributedLabel
 
+EXTERNAL SOURCES:
+  Subliminal:
+    :git: https://github.com/MaxGabriel/Subliminal.git
+
 SPEC CHECKSUMS:
+  Subliminal: 141147664ad2deb9de1f15869b69bbf7a42e391e
   TTTAttributedLabel: c148a21987b28b3064bc9a96cea2385e610383bf
 
 COCOAPODS: 0.20.2
